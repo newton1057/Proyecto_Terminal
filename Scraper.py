@@ -10,22 +10,27 @@ List_ID_Authors = []
 
 class Author:
     def __init__(self):
-        self.MRAuthor_ID = ""
-        self.Name = ""
-        self.Gender = ""
+        self.MRAuthor_ID = "" # ID del Autor
+        self.Name = "" # Nombre del Autor
+        self.Gender = "" # Genero del Autor
+        self.Classifications = [] # Clasificacion o Areas de Investigacion
+        self.Activity_since = 0 # Año de su primera Publicacion
+        self.Total_Publications = 0 # Numero total de Publicaciones del Autor
 
 class Publication:
     def __init__(self):
-        self.MR_Publication = ""
-        self.Authors = []
+        self.MR_Publication = "" # ID de la publicacion
+        self.Name_Publication = "" # Nombre de la publicacion
+        self.Authors = [] # Autores relacionados
+        self.Classification = "" # Clasificacion de la publicacion
 
 #Función para realizar la conexión a la pagina web para extracción de datos, se recibe un diccionario con las variables de Username y Password
 def Connect_Mathscinet(data_access):
     session = requests.session()
     response = session.post("https://uam.elogim.com/auth-meta/login", data=data_access)
-
     if(response.status_code == 200):
         print(Fore.GREEN + "Sesion correcta ✅")
+        print("")
         return session
     else:
         print(Fore.RED + "Sesion erronea ❌")
@@ -89,18 +94,42 @@ def getPublications (session: requests):
     for publication in list_publications:
         print (publication.Authors)
     
+def view_Author (Author: Author):
+    print ("Datos del Autor")
+    print ("MRAutor: " + Author.MRAuthor_ID)
+    print ("Name: " + Author.Name) 
+    print ("Gender: " + Author.Gender)
+    print ("Activity Since: " + Author.Activity_since )
+    print ("Total Publications: " + Author.Total_Publications)
+    print ("Classifications: ")
+    for Classification in range(len(Author.Classifications)):
+        print(" * " + Author.Classifications[Classification])
+    
+    print ("")
 
 def get_Data_Author( session: requests, MR_Author):
-    DataWeb = session.get("https://mathscinet.uam.elogim.com/mathscinet/2006/mathscinet/search/author.html?mrauthid=" + MR_Author)
-    DataWeb = BeautifulSoup(DataWeb.text, 'html.parser')
-    Name = DataWeb.find("span", class_="authorName").text
-    author = Author()
-    author.MRAuthor_ID = MR_Author
-    author.Name = Name
-    print(Name)
-    resp = requests.get('https://api.genderize.io/?name='+ Name[Name.index(',')+2:] +'&country_id=MX')
+    DataWeb = session.get("https://mathscinet.uam.elogim.com/mathscinet/2006/mathscinet/search/author.html?mrauthid=" + MR_Author) # Extrae la data de la Web del Autor
+    DataWeb = BeautifulSoup(DataWeb.text, 'html.parser') # Convierte en un objeto BeautifulSoup
+    Name = DataWeb.find("span", class_="authorName").text # Buscar el Nombre del Autor
+    Table = DataWeb.find("table", class_="table-hover").text # Buscar la primera tabla con los datos del Autor
+    author = Author() #Crea el objeto Autor
+    author.MRAuthor_ID = MR_Author # Asigna el ID del Autor
+    author.Name = Name # Asigna el Nombre del Autor
+    
+    Table = Table.split('\n') # Divide la tabla del autor en un arreglo por cada salto de linea
+    author.Activity_since = Table[20]
+    author.Total_Publications = Table[25]
+    resp = requests.get('https://api.genderize.io/?name='+ Name[Name.index(',')+2:] +'&country_id=MX') # Genera la peticion a la API para determinar el genero con una probabilidad
     resp = json.loads(resp.text)
-    author.Gender = resp['gender']
+    author.Gender = resp['gender'] # Obtiene el genero calculado por la API
+    
+    Classifications = DataWeb.find_all("div", class_="tagCloud") # Busca el DIV donde se encuentra las Clasificaciones del Autor
+    Classifications = Classifications[1].text.split("\n") 
+    Classifications = list(filter(None, Classifications)) # Elimina elementos vacios
+    Classifications = list( filter(lambda Classification: Classification != "Other", Classifications) ) # Elimina en caso de que exista la clasificacion Other
+    author.Classifications = Classifications
+    view_Author (author)
+    
     return author
 
 def get_Publications_Author (session: requests, MR_Author):
