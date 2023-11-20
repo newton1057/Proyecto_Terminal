@@ -58,5 +58,5 @@ Este proyecto está bajo la licencia MIT.
 Agradecemos a todos aquellos que han contribuido y apoyado este proyecto.
 
 ## Materiales
-- [🌠 Infografía](https://pages.github.com/) - Presentada en el V Simposio de Licenciaturas y Posgrado de la División de Ciencias Naturales e Ingenierías 2023.
+- [🌠 Infografía](https://pages.github.com/) - _Presentada en el V Simposio de Licenciaturas y Posgrado de la División de Ciencias Naturales e Ingenierías 2023._
 - 
