@@ -1,6 +1,7 @@
 ## Proyecto Terminal 🚀
 ### _¿Qué determina con quien eliges trabajar? La red de colaboración de Matemáticas Discretas en México_ 🙋🏻‍♂️ 🙋🏻‍♀️
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Python](https://img.shields.io/badge/Python-v3.12.0-green?style=flat&logo=python&logoColor=ffffff)
 ![Neo4j](https://img.shields.io/badge/Neo4j-4.4.28-green?style=flat&logo=neo4j&logoColor=ffffff)
 ![R](https://img.shields.io/badge/R-4.3.2-green?style=flat&logo=r&logoColor=ffffff)
