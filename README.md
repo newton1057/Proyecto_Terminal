@@ -45,14 +45,17 @@ Crear una herramienta de visualización de redes para examinar las colaboracione
 Para utilizar la herramienta, sigue las instrucciones detalladas en la sección de Instalación y Uso en la documentación.
 
 ## Autores
-| [<img src="https://res.cloudinary.com/drrtat4kn/image/upload/v1700517567/ProyectoTerminal/Authors/Author1.png" width=100><br><sub>Eduardo Davila 🇲🇽</sub><br><sub>Desarrollador</sub>](https://github.com/newton1057) | [<img src="https://res.cloudinary.com/drrtat4kn/image/upload/v1700518106/ProyectoTerminal/Authors/Alicia_Montserrat_Alvarado_Gonzalez.jpg" width=100><br><sub>Alicia Alvarado 🇲🇽</sub><br><sub>Asesor del proyecto</sub>](https://github.com/newton1057)   |  [<img src="https://res.cloudinary.com/drrtat4kn/image/upload/v1700518492/ProyectoTerminal/Authors/Mika_Olsen.jpg" width=100><br><sub>Mika Olsen 🇩🇰</sub><br><sub>Asesor del proyecto</sub>](https://github.com/genesysaluralatam) |
+| [<img src="https://res.cloudinary.com/drrtat4kn/image/upload/v1700517567/ProyectoTerminal/Authors/Author1.png" width=100><br><sub>Eduardo Davila 🇲🇽</sub><br><sub>Desarrollador</sub>](https://github.com/newton1057) | [<img src="https://res.cloudinary.com/drrtat4kn/image/upload/v1700518106/ProyectoTerminal/Authors/Alicia_Montserrat_Alvarado_Gonzalez.jpg" width=100><br><sub>Alicia Alvarado 🇲🇽</sub><br><sub>Asesor del proyecto</sub>](https://github.com/newton1057) | [<img src="https://res.cloudinary.com/drrtat4kn/image/upload/v1700518492/ProyectoTerminal/Authors/Mika_Olsen.jpg" width=100><br><sub>Mika Olsen 🇩🇰</sub><br><sub>Asesor del proyecto</sub>](https://github.com/genesysaluralatam) |
 | :---: | :---: | :---: |
 
 ## Contribuciones
 Si deseas contribuir al desarrollo de la herramienta, por favor consulta la guía de contribuciones para obtener detalles sobre cómo colaborar.
 
+## Contacto
+
+
 ## Licencia
-Este proyecto está bajo la licencia MIT.
+Este proyecto está bajo la [licencia MIT](./LICENSE).
 
 ## Agradecimientos
 Agradecemos a todos aquellos que han contribuido y apoyado este proyecto.
