@@ -54,8 +54,6 @@ Si deseas contribuir al desarrollo de la herramienta, por favor consulta la guí
 ## Contacto
 - Twitter: [@newton1057](https://twitter.com/newton1057)
 - Email: [newton1057@gmail.com](mailto:newton1057@gmail.com)
-
-
 - LinkedIn: [@newton1057](https://www.linkedin.com/in/newton1057/)
 
 ## Licencia
