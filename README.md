@@ -40,13 +40,7 @@ Crear una herramienta de visualización de redes para examinar las colaboracione
 Para utilizar la herramienta, sigue las instrucciones detalladas en la sección de Instalación y Uso en la documentación.
 
 ## Autores
-
-| <img src="https://scontent.fmex11-1.fna.fbcdn.net/v/t39.30808-6/381340579_2525250390977514_1103077622925627822_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=UAcpvbqe5k0AX8Froiq&_nc_ht=scontent.fmex11-1.fna&oh=00_AfB2eTvy55Z-ssdz0LCT6qaO4M4TLlCbHLKJXZ_cMF3w_A&oe=6560711E" alt="Imagen del Autor 1" width="100" height="100"> | Description |
-| --- | --- |
-| <div><img src="https://scontent.fmex11-1.fna.fbcdn.net/v/t39.30808-6/381340579_2525250390977514_1103077622925627822_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=UAcpvbqe5k0AX8Froiq&_nc_ht=scontent.fmex11-1.fna&oh=00_AfB2eTvy55Z-ssdz0LCT6qaO4M4TLlCbHLKJXZ_cMF3w_A&oe=6560711E" alt="Imagen del Autor 1" width="100" height="100"></br><h5 style="margin:0">Eduardo Isaac Dávila Bernal</h5><h5 style="margin:0">Desarrollador</h5></div> | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
-
-| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=100><br><sub>Eduardo Isaac Davila Bernal</sub>](https://github.com/newton1057) | [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=100><br><sub>Alicia Montserrat Alvarado González</sub>](https://github.com/newton1057)   |  [<img src="https://avatars.githubusercontent.com/u/91544872?v=4" width=100><br><sub>Mika Olsen</sub>](https://github.com/genesysaluralatam) |
+| [<img src="https://res.cloudinary.com/drrtat4kn/image/upload/v1700517567/ProyectoTerminal/Authors/Author1.png" width=100><br><sub>Eduardo Isaac Davila Bernal</sub><br><sub>Desarrollador</sub>](https://github.com/newton1057) | [<img src="https://res.cloudinary.com/drrtat4kn/image/upload/v1700518106/ProyectoTerminal/Authors/Alicia_Montserrat_Alvarado_Gonzalez.jpg" width=100><br><sub>Alicia Montserrat Alvarado González</sub><br><sub>Asesor del proyecto</sub>](https://github.com/newton1057)   |  [<img src="https://res.cloudinary.com/drrtat4kn/image/upload/v1700518492/ProyectoTerminal/Authors/Mika_Olsen.jpg" width=100><br><sub>Mika Olsen</sub><br><sub>Asesor del proyecto</sub>](https://github.com/genesysaluralatam) |
 | :---: | :---: | :---: |
 
 ### Contribuciones
