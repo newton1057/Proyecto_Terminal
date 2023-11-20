@@ -1,6 +1,5 @@
 ## Proyecto Terminal
-##### _¿Qué determina con quien eliges trabajar?_
-##### _La red de colaboración de Matemáticas Discretas en México_
+### _¿Qué determina con quien eliges trabajar? La red de colaboración de Matemáticas Discretas en México_
 
 ### Introducción
 El presente repositorio contiene el código fuente y la documentación asociada a una herramienta de **visualización de redes desarrollada para analizar las colaboraciones en el campo de las matemáticas discretas y combinatoria en México**. Esta iniciativa surge en respuesta a la necesidad de abordar la desigualdad de género y comprender la dinámica de colaboración en la comunidad académica, con un enfoque especial en **la equidad de género**.
@@ -45,7 +44,6 @@ Para utilizar la herramienta, sigue las instrucciones detalladas en la sección 
 
 ### Contribuciones
 Si deseas contribuir al desarrollo de la herramienta, por favor consulta la guía de contribuciones para obtener detalles sobre cómo colaborar.
-Desarrollador: Eduardo Isaac
 
 ### Licencia
 Este proyecto está bajo la licencia MIT.
