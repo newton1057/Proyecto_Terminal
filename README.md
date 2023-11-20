@@ -52,7 +52,9 @@ Para utilizar la herramienta, sigue las instrucciones detalladas en la sección 
 Si deseas contribuir al desarrollo de la herramienta, por favor consulta la guía de contribuciones para obtener detalles sobre cómo colaborar.
 
 ## Contacto
-
+- Twitter: [@newton1057](https://twitter.com/newton1057)
+- Email: [newton1057@gmail.com](newton1057@gmail.com)
+- LinkedIn: [@newton1057](https://www.linkedin.com/in/newton1057/)
 
 ## Licencia
 Este proyecto está bajo la [licencia MIT](./LICENSE).
