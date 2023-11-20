@@ -1,5 +1,5 @@
-## Proyecto Terminal
-### _¿Qué determina con quien eliges trabajar? La red de colaboración de Matemáticas Discretas en México_
+## Proyecto Terminal 🚀
+### _¿Qué determina con quien eliges trabajar? La red de colaboración de Matemáticas Discretas en México_ 🙋🏻‍♂️ 🙋🏻‍♀️
 
 ### Introducción
 El presente repositorio contiene el código fuente y la documentación asociada a una herramienta de **visualización de redes desarrollada para analizar las colaboraciones en el campo de las matemáticas discretas y combinatoria en México**. Esta iniciativa surge en respuesta a la necesidad de abordar la desigualdad de género y comprender la dinámica de colaboración en la comunidad académica, con un enfoque especial en **la equidad de género**.
