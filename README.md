@@ -2,10 +2,10 @@
 ## _¿Qué determina con quien eliges trabajar? La red de colaboración de Matemáticas Discretas en México_ 🇲🇽 🙋🏻‍♂️ 🙋🏻‍♀️
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![Python](https://img.shields.io/badge/Python-v3.12.0-green?style=flat&logo=python&logoColor=ffffff)
-![Neo4j](https://img.shields.io/badge/Neo4j-4.4.28-green?style=flat&logo=neo4j&logoColor=ffffff)
-![R](https://img.shields.io/badge/R-4.3.2-green?style=flat&logo=r&logoColor=ffffff)
-![ReactJS](https://img.shields.io/badge/ReactJS-18.2.0-green?style=flat&logo=react&logoColor=ffffff)
+[![Python](https://img.shields.io/badge/Python-v3.12.0-green?style=flat&logo=python&logoColor=ffffff)](https://www.python.org/)
+[![Neo4j](https://img.shields.io/badge/Neo4j-4.4.28-green?style=flat&logo=neo4j&logoColor=ffffff)](https://neo4j.com/)
+[![R](https://img.shields.io/badge/R-4.3.2-green?style=flat&logo=r&logoColor=ffffff)](https://www.r-project.org/)
+[![ReactJS](https://img.shields.io/badge/ReactJS-18.2.0-green?style=flat&logo=react&logoColor=ffffff)](https://www.r-project.org/)
 
 ## Introducción
 El presente repositorio contiene el código fuente y la documentación asociada a una herramienta de **visualización de redes desarrollada para analizar las colaboraciones en el campo de las matemáticas discretas y combinatoria en México 🇲🇽**. Esta iniciativa surge en respuesta a la necesidad de abordar la desigualdad de género y comprender la dinámica de colaboración en la comunidad académica, con un enfoque especial en **la equidad de género**.
@@ -33,13 +33,13 @@ La herramienta desarrollada tiene como propósito analizar las colaboraciones en
 Crear una herramienta de visualización de redes para examinar las colaboraciones en el campo de las matemáticas discretas y combinatoria en México 🇲🇽.
 
 ### Objetivos específicos:
-- **Interfaz de Usuario Intuitiva:** Desarrollar una interfaz amigable para que los investigadores especifiquen información y parámetros de búsqueda.
-- **Módulo de Web Scraping:** Implementar un módulo eficiente para la extracción de datos de MathSciNet.
-- **Almacenamiento en Base de Datos:** Diseñar una base de datos estructurada para gestionar y analizar datos a largo plazo.
-- **Generación de Redes de Colaboración:** Automatizar la generación de redes de colaboración y visualización en forma de grafo.
-- **Análisis de Género:** Incorporar un componente para determinar el género de los investigadores.
-- **Análisis de Patrones:** Incluir funciones de análisis para identificar patrones de colaboración y áreas de investigación frecuentes.
-- **Documentación y Manuales:** Proporcionar documentación completa y manuales de uso.
+- **`Interfaz de Usuario Intuitiva:`** Desarrollar una interfaz amigable para que los investigadores especifiquen información y parámetros de búsqueda.
+- **`Módulo de Web Scraping:`** Implementar un módulo eficiente para la extracción de datos de MathSciNet.
+- **`Almacenamiento en Base de Datos:`** Diseñar una base de datos estructurada para gestionar y analizar datos a largo plazo.
+- **`Generación de Redes de Colaboración:`** Automatizar la generación de redes de colaboración y visualización en forma de grafo.
+- **`Análisis de Género:`** Incorporar un componente para determinar el género de los investigadores.
+- **`Análisis de Patrones:`** Incluir funciones de análisis para identificar patrones de colaboración y áreas de investigación frecuentes.
+- **`Documentación y Manuales:`** Proporcionar documentación completa y manuales de uso.
 
 ## Instalación y Uso
 Para utilizar la herramienta, sigue las instrucciones detalladas en la sección de Instalación y Uso en la documentación.
