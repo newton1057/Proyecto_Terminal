@@ -52,8 +52,8 @@ Para utilizar la herramienta, sigue las instrucciones detalladas en la sección 
 ## Contribuciones
 Si deseas contribuir al desarrollo de la herramienta, por favor comunícate con nosotros.
 
-| [<img src="https://res.cloudinary.com/drrtat4kn/image/upload/v1700534741/ProyectoTerminal/Collaborators/Collaborator2.jpg" width=100><br><sub>Ismael Robles Martínez 🇲🇽</sub><br><sub>Asesor</sub>](https://investigacion.uam.mx/en/index.php/listado-catalogo/87785) | [<img src="https://res.cloudinary.com/drrtat4kn/image/upload/v1700533344/ProyectoTerminal/Collaborators/Collaborator1.jpg" width=100><br><sub>María Chávez Canales 🇲🇽</sub><br><sub>Asesor</sub>](https://www.biomedicas.unam.mx/personal-academico/maria-chavez-canales/) |
-| :---: | :---: |
+| [<img src="https://res.cloudinary.com/drrtat4kn/image/upload/v1700534741/ProyectoTerminal/Collaborators/Collaborator2.jpg" width=100><br><sub>Ismael Robles Martínez 🇲🇽</sub><br><sub>Asesor</sub>](https://investigacion.uam.mx/en/index.php/listado-catalogo/87785) | [<img src="https://res.cloudinary.com/drrtat4kn/image/upload/v1700533344/ProyectoTerminal/Collaborators/Collaborator1.jpg" width=100><br><sub>María Chávez Canales 🇲🇽</sub><br><sub>Asesor</sub>](https://www.biomedicas.unam.mx/personal-academico/maria-chavez-canales/) | [<img src="https://res.cloudinary.com/drrtat4kn/image/upload/v1700591909/ProyectoTerminal/Collaborators/Collaborator3.jpg" width=100><br><sub>Fredy Rivas 🇲🇽</sub><br><sub>Asesor</sub>](https://www.linkedin.com/in/fredy-rivas/) |
+| :---: | :---: | :--: |
 
 ## Contacto
 - X: [@newton1057](https://twitter.com/newton1057)
