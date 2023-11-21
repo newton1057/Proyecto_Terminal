@@ -6,7 +6,7 @@
 [![Neo4j](https://img.shields.io/badge/Neo4j-4.4.28-green?style=flat&logo=neo4j&logoColor=ffffff)](https://neo4j.com/)
 [![R](https://img.shields.io/badge/R-4.3.2-green?style=flat&logo=r&logoColor=ffffff)](https://www.r-project.org/)
 [![ReactJS](https://img.shields.io/badge/ReactJS-18.2.0-green?style=flat&logo=react&logoColor=ffffff)](https://www.r-project.org/)
-
+[![NodeJS](https://img.shields.io/badge/NodeJS-20.9.0-green?style=flat&logo=nodedotjs&logoColor=ffffff)](https://nodejs.org/en)
 ## Introducción
 El presente repositorio contiene el código fuente y la documentación asociada a una herramienta de **visualización de redes desarrollada para analizar las colaboraciones en el campo de las matemáticas discretas y combinatoria en México 🇲🇽**. Esta iniciativa surge en respuesta a la necesidad de abordar la desigualdad de género y comprender la dinámica de colaboración en la comunidad académica, con un enfoque especial en **la equidad de género**.
 
