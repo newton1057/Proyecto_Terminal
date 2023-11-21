@@ -64,7 +64,7 @@ Agradecemos a todos aquellos que han contribuido y apoyado este proyecto.
 
 ## Materiales
 - [🌠 Infografía](https://drive.google.com/file/d/1jjm1MoipqjMq8yjyiV_gINR_lCf_MYcC/view?usp=sharing) - Presentada en el _V Simposio de Licenciaturas y Posgrado de la División de Ciencias Naturales e Ingenierías 2023._
-
+- [📄 Documento de Proyecto Terminal](https://drive.google.com/file/d/1jjm1MoipqjMq8yjyiV_gINR_lCf_MYcC/view?usp=sharing)
 
 ---
 💻 con ❤️ por [Eduardo Dávila](https://github.com/newton1057) 😊
