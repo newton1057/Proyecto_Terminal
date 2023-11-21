@@ -1,5 +1,5 @@
 ## Proyecto Terminal 🚀
-### _¿Qué determina con quien eliges trabajar? La red de colaboración de Matemáticas Discretas en México_ 🇲🇽 🙋🏻‍♂️ 🙋🏻‍♀️
+## _¿Qué determina con quien eliges trabajar? La red de colaboración de Matemáticas Discretas en México_ 🇲🇽 🙋🏻‍♂️ 🙋🏻‍♀️
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Python](https://img.shields.io/badge/Python-v3.12.0-green?style=flat&logo=python&logoColor=ffffff)
