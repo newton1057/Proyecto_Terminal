@@ -1,5 +1,5 @@
-## Proyecto Terminal 🚀
-## _¿Qué determina con quien eliges trabajar? La red de colaboración de Matemáticas Discretas en México_ 🇲🇽 🙋🏻‍♂️ 🙋🏻‍♀️
+# Proyecto Terminal 🚀
+# _¿Qué determina con quien eliges trabajar? La red de colaboración de Matemáticas Discretas en México_ 🇲🇽 🙋🏻‍♂️ 🙋🏻‍♀️
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-v3.12.0-green?style=flat&logo=python&logoColor=ffffff)](https://www.python.org/)
@@ -7,6 +7,7 @@
 [![R](https://img.shields.io/badge/R-4.3.2-green?style=flat&logo=r&logoColor=ffffff)](https://www.r-project.org/)
 [![ReactJS](https://img.shields.io/badge/ReactJS-18.2.0-green?style=flat&logo=react&logoColor=ffffff)](https://www.r-project.org/)
 [![NodeJS](https://img.shields.io/badge/NodeJS-20.9.0-green?style=flat&logo=nodedotjs&logoColor=ffffff)](https://nodejs.org/en)
+
 ## Introducción
 El presente repositorio contiene el código fuente y la documentación asociada a una herramienta de **visualización de redes desarrollada para analizar las colaboraciones en el campo de las matemáticas discretas y combinatoria en México 🇲🇽**. Esta iniciativa surge en respuesta a la necesidad de abordar la desigualdad de género y comprender la dinámica de colaboración en la comunidad académica, con un enfoque especial en **la equidad de género**.
 
@@ -49,7 +50,7 @@ Para utilizar la herramienta, sigue las instrucciones detalladas en la sección 
 | :---: | :---: | :---: |
 
 ## Contribuciones
-Si deseas contribuir al desarrollo de la herramienta, por favor consulta la guía de contribuciones para obtener detalles sobre cómo colaborar.
+Si deseas contribuir al desarrollo de la herramienta, por favor comunícate con nosotros.
 
 ## Contacto
 - X: [@newton1057](https://twitter.com/newton1057)
