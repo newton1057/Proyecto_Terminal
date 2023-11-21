@@ -46,14 +46,14 @@ Crear una herramienta de visualización de redes para examinar las colaboracione
 Para utilizar la herramienta, sigue las instrucciones detalladas en la sección de Instalación y Uso en la documentación.
 
 ## Autores
-| [<img src="https://res.cloudinary.com/drrtat4kn/image/upload/v1700517567/ProyectoTerminal/Authors/Author1.png" width=100><br><sub>Eduardo Dávila 🇲🇽</sub><br><sub>Desarrollador</sub>](https://github.com/newton1057) | [<img src="https://res.cloudinary.com/drrtat4kn/image/upload/v1700518106/ProyectoTerminal/Authors/Alicia_Montserrat_Alvarado_Gonzalez.jpg" width=100><br><sub>Alicia Alvarado 🇲🇽</sub><br><sub>Asesor del proyecto</sub>](https://www.researchgate.net/profile/Montserrat-Alvarado-Gonzalez) | [<img src="https://res.cloudinary.com/drrtat4kn/image/upload/v1700518492/ProyectoTerminal/Authors/Mika_Olsen.jpg" width=100><br><sub>Mika Olsen 🇩🇰</sub><br><sub>Asesor del proyecto</sub>](https://investigacion.uam.mx/en/index.php/listado-catalogo/61799) |
+| [<img src="https://res.cloudinary.com/drrtat4kn/image/upload/v1700517567/ProyectoTerminal/Authors/Author1.png" width=100><br><sub>Eduardo Dávila Bernal 🇲🇽</sub><br><sub>Desarrollador</sub>](https://github.com/newton1057) | [<img src="https://res.cloudinary.com/drrtat4kn/image/upload/v1700518106/ProyectoTerminal/Authors/Alicia_Montserrat_Alvarado_Gonzalez.jpg" width=100><br><sub>Alicia Alvarado González 🇲🇽</sub><br><sub>Asesor del proyecto</sub>](https://www.researchgate.net/profile/Montserrat-Alvarado-Gonzalez) | [<img src="https://res.cloudinary.com/drrtat4kn/image/upload/v1700518492/ProyectoTerminal/Authors/Mika_Olsen.jpg" width=100><br><sub>Mika Olsen 🇩🇰</sub><br><sub>Asesor del proyecto</sub>](https://investigacion.uam.mx/en/index.php/listado-catalogo/61799) |
 | :---: | :---: | :---: |
 
 ## Contribuciones
 Si deseas contribuir al desarrollo de la herramienta, por favor comunícate con nosotros.
 
-| [<img src="https://res.cloudinary.com/drrtat4kn/image/upload/v1700533344/ProyectoTerminal/Collaborators/Collaborator1.jpg" width=100><br><sub>María Chávez Canales 🇲🇽</sub><br><sub>Asesor</sub>](https://www.biomedicas.unam.mx/personal-academico/maria-chavez-canales/) |
-| :---: | 
+| [<img src="https://res.cloudinary.com/drrtat4kn/image/upload/v1700534741/ProyectoTerminal/Collaborators/Collaborator2.jpg" width=100><br><sub>Ismael Robles Martínez 🇲🇽</sub><br><sub>Asesor</sub>](https://www.biomedicas.unam.mx/personal-academico/maria-chavez-canales/) | [<img src="https://res.cloudinary.com/drrtat4kn/image/upload/v1700533344/ProyectoTerminal/Collaborators/Collaborator1.jpg" width=100><br><sub>María Chávez Canales 🇲🇽</sub><br><sub>Asesor</sub>](https://www.biomedicas.unam.mx/personal-academico/maria-chavez-canales/) |
+| :---: | :---: |
 
 ## Contacto
 - X: [@newton1057](https://twitter.com/newton1057)
