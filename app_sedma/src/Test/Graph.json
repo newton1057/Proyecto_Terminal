@@ -1,0 +1,12 @@
+[
+    {
+        "nodes":[
+            { "id" : 126505 , "title": "MRAutor:126505\nNombre: Montejano-Peimbert, Luis\nGender: male\nActivity Since: 1974\nTotal Publications: 110", "shape": "circle", "color": "#6499E9"},
+            { "id" : 70670 , "title": "MRAutor:70670\nNombre: Galeana-Sánchez, Hortensia\nGender: female\nActivity Since: 1982\nTotal Publications: 159", "shape": "circle", "color": "#D988B9"},
+            { "id" : 176235 , "title": "MRAutor:176235\nNombre: Urrutia, Jorge, Hortensia\nGender: male\nActivity Since: 1980\nTotal Publications: 202", "shape": "circle", "color": "#6499E9"}
+        ],
+        "edges":[
+            {"from": 126505 , "to": 70670}
+        ]
+}  
+]

@@ -3,11 +3,12 @@ from bs4 import BeautifulSoup
 import json
 from colorama import Fore
 import re
+from neo4j import GraphDatabase
 
 List_Publications = []
 List_Authors = []
 List_ID_Authors = []
-
+# Objeto Autor
 class Author:
     def __init__(self):
         self.MRAuthor_ID = "" # ID del Autor
@@ -17,6 +18,29 @@ class Author:
         self.Activity_since = 0 # Año de su primera Publicacion
         self.Total_Publications = 0 # Numero total de Publicaciones del Autor
 
+class Neo4jService (object):
+    def __init__(self, uri, user, password):
+        self._driver = GraphDatabase.driver(uri, auth=(user, password))
+
+    def close(self):
+        self._driver.close()
+
+    def Crear_Author(self, tx, Author: Author):
+        tx.run("CREATE (:Autor {MR_Author: $MR_Author, Name: $Name, Gender: $Gender, Classifications: $Classifications})", MR_Author = Author.MRAuthor_ID, Name = Author.Name, Gender = Author.Gender, Classifications = Author.Classifications)
+
+    def Conexion_Author(self, tx, From_MR_Author , To_MR_Author):
+        tx.run("MATCH (a:Autor {MR_Author: $From_MR_Author}) "
+               "MATCH (b:Autor {MR_Author: $To_MR_Author}) "
+               "MERGE (a)-[:Colaboro]->(b)", 
+               From_MR_Author=From_MR_Author, To_MR_Author=To_MR_Author)
+
+
+"""
+URL_Neo4j = "bolt://localhost:7687" #Server de Neo4j LocalHost
+DB_Neo4j = "neo4j" # Nombre de la Base de datos a conectar
+Password_Neo4j = "PT_DB1220" # Password de acceso a la base de datos a conectar
+BD = Neo4jService(URL_Neo4j, DB_Neo4j, Password_Neo4j) # Crear conexion a BD
+"""
 class Publication:
     def __init__(self):
         self.MR_Publication = "" # ID de la publicacion
@@ -70,35 +94,17 @@ def getPublications (session: requests):
             obj_publication.setAuthor(author)
 
         list_publications.append(obj_publication)
-    """
-    For con Index
-    for publication in range(0, len(publications)):
-        obj_publication = Publication()
-        print("")
-        print(Fore.BLUE + "Publication")
-        data_publication = publications[publication].get_text()
-        data = []
-        data = data_publication.split('\n')
-        authors = list(filter(lambda content: 'author' in content, data))
-        for author in range(0,len(authors)):
-            index_1 = authors[author].index('{')
-            index_2 = authors[author].index('}')
-            authors[author] = authors[author][index_1+1:index_2]
-            obj_publication.setAuthor(authors[author])
-
-        list_publications.append(obj_publication)
-    """
-
     print("Number of publications: " + str(len(list_publications)))
     print("")
     for publication in list_publications:
         print (publication.Authors)
     
 def view_Author (Author: Author):
+    # Imprimir los datos del Objeto Autor
     print ("Datos del Autor")
     print ("MRAutor: " + Author.MRAuthor_ID)
     print ("Name: " + Author.Name) 
-    print ("Gender: " + Author.Gender)
+    print ("Gender: " + str(Author.Gender))
     print ("Activity Since: " + Author.Activity_since )
     print ("Total Publications: " + Author.Total_Publications)
     print ("Classifications: ")
@@ -120,9 +126,12 @@ def get_Data_Author( session: requests, MR_Author):
     author.Activity_since = Table[20]
     author.Total_Publications = Table[25]
     resp = requests.get('https://api.genderize.io/?name='+ Name[Name.index(',')+2:] +'&country_id=MX') # Genera la peticion a la API para determinar el genero con una probabilidad
-    resp = json.loads(resp.text)
-    author.Gender = resp['gender'] # Obtiene el genero calculado por la API
     
+    resp = json.loads(resp.text)
+
+    author.Gender = resp['gender'] # Obtiene el genero calculado por la API
+    if author.Gender == None:
+        print("Hola")
     Classifications = DataWeb.find_all("div", class_="tagCloud") # Busca el DIV donde se encuentra las Clasificaciones del Autor
     Classifications = Classifications[1].text.split("\n") 
     Classifications = list(filter(None, Classifications)) # Elimina elementos vacios
@@ -164,11 +173,13 @@ def get_Publications_Author (session: requests, MR_Author):
             Object_Publication.Authors.append(author)
         print("")
         List_Publications.append(Object_Publication)
-        get_Data_Publication(session, MR_Publication)
+        get_Data_Publication(session, MR_Publication, MR_Author)
         #if(not validate_publication_in_list(List_Publications, MR_Publication)):
          #   get_Data_Publication(session, MR_Publication)
         
-def get_Data_Publication (session: requests, MR_Publication):
+def get_Data_Publication (session: requests, MR_Publication, MR_Author):
+    global BD
+
     DataWeb = session.get("https://mathscinet.uam.elogim.com/mathscinet/2006/mathscinet/search/publdoc.html?arg3=&co4=AND&co5=AND&co6=AND&co7=AND&dr=all&pg4=AUCN&pg5=TI&pg6=MR&pg7=ALLF&pg8=ET&r=1&review_format=html&s4=&s5=&s6="+ MR_Publication +"&s7=&s8=All&sort=Newest&vfpref=html&yearRangeFirst=&yearRangeSecond=&yrop=eq")
     DataWeb = BeautifulSoup(DataWeb.text, 'html.parser')
     DataWeb = DataWeb.find("div", class_="headline")
@@ -187,6 +198,8 @@ def get_Data_Publication (session: requests, MR_Publication):
             if not URL in List_ID_Authors:
                 print("No existe")
                 Author_ = get_Data_Author(session, URL)
+                #BD._driver.session().execute_write(BD.Crear_Author, Author_)
+                #BD._driver.session().execute_write(BD.Conexion_Author, MR_Author, Author_.MRAuthor_ID)
                 List_Authors.append(Author_)
                 List_ID_Authors.append(URL)
 
@@ -202,7 +215,11 @@ def validate_publication_in_list(List_Publications : [], MR_Publication):
             return True
     return False
 
-def main():    
+
+
+def main():   
+    
+
     with open('config.json') as config_file:
         data = json.load(config_file)
 
@@ -214,6 +231,7 @@ def main():
 
     for i in range(0, len(List_MR_Authors)):
         Author_ = get_Data_Author(session, List_MR_Authors[i])
+        #BD._driver.session().execute_write(BD.Crear_Author, Author_)
         List_Authors.append(Author_)
         List_ID_Authors.append(Author_.MRAuthor_ID)
 
