@@ -60,8 +60,6 @@ El material tiene como objetivo proporcionar una visión integral acerca de las 
     
 - **Diseño Gráfico 🎨**
   - **Diseñador Gráfico:** [🇲🇽 Eduardo Isaac Dávila Bernal 🙋🏻‍♂️](https://github.com/newton1057)
-  - **Asesor:** 🇲🇽 Daniel Tapia 🙋🏻‍♂️
-  - **Asesor:** [🇲🇽 Fredy Rivas 🙋🏻‍♂️](https://www.linkedin.com/in/fredy-rivas/)
     
 - **Recursos Gráficos 🌠**
   - Las ilustraciones utilizadas en este proyecto fueron extraídas de [Freepik](https://www.freepik.es/). Agradecemos a Freepik y a los artistas por proporcionar recursos visuales de alta calidad.
