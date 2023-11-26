@@ -42,6 +42,8 @@ El material tiene como objetivo proporcionar una visión integral acerca de las 
 [🔗 Enlace a la presentación](https://alumnoscuauammx-my.sharepoint.com/:p:/g/personal/2193076785_alumnos_cua_uam_mx/Ec7VyhGutllPsFz3hpJzS5ABWUNKYHW3OCt3wDVGMgjJSg?e=iKKvOc)
 
 ### Referencias 🤓
+- InfraNodus: Generate Insight with AI and Network Thinking. InfraNodus.Com by Nodus Labs. https://infranodus.com/
+- Robinson, Webber, & Eifrem. (2015, July). Graph Databases - NEW OPPORTUNITIES FOR CONNECTED DATA (2nd ed.) [E-Book]. O’Reilly Media, Inc. https://neo4j.com/graph-databases-book/
 - Welcome to Python.org. (2023). Python.org. https://www.python.org/
 - Neo4j Graph Database & Analytics | Graph Database Management System. (2023). Graph Database & Analytics. https://neo4j.com/
 - Beautiful Soup Documentation — Beautiful Soup 4.12.0 documentation. https://www.crummy.com/software/BeautifulSoup/bs4/doc/
