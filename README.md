@@ -57,7 +57,8 @@ Si deseas contribuir al desarrollo de la herramienta, por favor comunícate con 
 
 ## Contacto
 - X: [@newton1057](https://twitter.com/newton1057)
-- Email: [newton1057@gmail.com](mailto:newton1057@gmail.com)
+- Email Personal: [newton1057@gmail.com](mailto:newton1057@gmail.com)
+- Email Institucional: [eduardo.davila@cua.uam.mx](mailto:eduardo.davila@cua.uam.mx)
 - LinkedIn: [@newton1057](https://www.linkedin.com/in/newton1057/)
 
 ## Licencia
