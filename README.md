@@ -64,7 +64,7 @@ Si deseas contribuir al desarrollo de la herramienta, por favor comunícate con 
 Este proyecto está bajo la [licencia MIT](./LICENSE).
 
 ## Referencias 
-Para visualizar la documentación recolectada durante el desarrollo del proyecto, visita la sección de [referencias](./docs/Referencias.md).
+Para visualizar la documentación recolectada durante el desarrollo del proyecto, visita la sección de [referencias](./docs/Referencias.md) .
 
 ## Agradecimientos
 Agradecemos a todos aquellos que han contribuido y apoyado este proyecto.
