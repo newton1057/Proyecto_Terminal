@@ -70,7 +70,7 @@ Para visualizar la documentación recolectada durante el desarrollo del proyecto
 Agradecemos a todos aquellos que han contribuido y apoyado este proyecto.
 
 ## Materiales
-- [🌠 Infografía](https://drive.google.com/file/d/1jjm1MoipqjMq8yjyiV_gINR_lCf_MYcC/view?usp=sharing) - Presentada en el _V Simposio de Licenciaturas y Posgrado de la División de Ciencias Naturales e Ingenierías 2023._
+- [🌠 Infografía](https://github.com/newton1057/Proyecto_Terminal/blob/main/docs/resources/Recursos.md#infograf%C3%ADa----explorando-las-bases-de-datos-orientadas-a-grafos-y-el-scraper-en-python) - Presentada en el _V Simposio de Licenciaturas y Posgrado de la División de Ciencias Naturales e Ingenierías 2023._
 - [📄 Documento de Proyecto Terminal](https://drive.google.com/file/d/1jjm1MoipqjMq8yjyiV_gINR_lCf_MYcC/view?usp=sharing)
 
 ---
